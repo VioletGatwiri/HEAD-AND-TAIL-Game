@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/styles.css" />
+
+    <title>Coin Game</title>
+  </head>
+  <body>
+    <script>
+var answer = prompt();
+        document.write(answer); 
+        var computerPick = Math.floor(Math.random() * 2);
+        if (computerPick == 0) {
+            computerPick = 'heads';
+        } else {
+            computerPick ='tails';
+        }
+if ( answer == computerPick) {
+    document.write ('You win!');
+} else {
+    document.write ('You lose!');
+}
+document.write(computerPick);
+    </script>
+  </body>
+</html>

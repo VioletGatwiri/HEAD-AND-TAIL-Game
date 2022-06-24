@@ -1,0 +1,10 @@
+body{
+word-spacing: 5px;
+}
+.answer {
+    word-spacing: 30px;
+}
+script{
+    word-break: normal;
+
+}
